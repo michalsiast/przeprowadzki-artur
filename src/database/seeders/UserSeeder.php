@@ -14,12 +14,6 @@ class UserSeeder extends Seeder
     public function run()
     {
         \App\User::create([
-            'name' => 'admin',
-            'email' => 'tjcymerys@gmail.com',
-            'password' => \Illuminate\Support\Facades\Hash::make('admin'),
-            'lang' => 'pl'
-        ]);
-        \App\User::create([
             'name' => 'M. Kardaś',
             'email' => 'rescodev98@gmail.com',
             'password' => \Illuminate\Support\Facades\Hash::make('admin'),
@@ -28,7 +22,7 @@ class UserSeeder extends Seeder
         \App\User::create([
             'name' => 'Administrator',
             'email' => 'admin@palmax.com.pl',
-            'password' => \Illuminate\Support\Facades\Hash::make('admin'),
+            'password' => \Illuminate\Support\Facades\Hash::make('UP2IPaSiuqfqaUs'),
             'lang' => 'pl'
         ]);
     }

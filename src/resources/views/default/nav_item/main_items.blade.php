@@ -1,5 +1,5 @@
 @if($items->count() > 0)
-    <ul>
+    <ul class="justify-content-end">
         @foreach($items as $item)
             @php
                 $isActive = false;

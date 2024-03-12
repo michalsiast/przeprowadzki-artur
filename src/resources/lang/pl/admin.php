@@ -67,7 +67,7 @@ return [
 
 
     'article.singular' => 'Artykuł',
-    'article.plural' => 'Artykuły',
+    'article.plural' => 'Dlaczego my',
     'article.title' => 'Tytuł',
     'article.lead' => 'Wprowadzenie',
     'article.text' => 'Tekst',
@@ -131,7 +131,7 @@ return [
 
 
     'realization.singular' => 'Realizacja',
-    'realization.plural' => 'Realizacje',
+    'realization.plural' => 'Usługi',
     'realization.title' => 'Tytuł',
     'realization.lead' => 'Wprowadzenie',
     'realization.text' => 'Tekst',

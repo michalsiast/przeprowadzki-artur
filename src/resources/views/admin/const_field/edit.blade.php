@@ -40,12 +40,12 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     {!! $form->renderFieldGroup('company_city') !!}
                                 </div>
-                                <div class="col-md-6">
-                                    {!! $form->renderFieldGroup('company_country') !!}
-                                </div>
+{{--                                <div class="col-md-6">--}}
+{{--                                    {!! $form->renderFieldGroup('company_country') !!}--}}
+{{--                                </div>--}}
                             </div>
                             {!! $form->renderFieldGroup('company_nip') !!}
 {{--                            {!! $form->renderFieldGroup('company_krs') !!}--}}
@@ -68,24 +68,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            Social Media
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    {!! $form->renderFieldGroup('facebook') !!}
-                                </div>
-                                <div class="col-lg-6">
-                                    {!! $form->renderFieldGroup('instagram') !!}
-                                </div>
-                            </div>
+{{--                <div class="col-12">--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-header">--}}
+{{--                            Social Media--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="col-lg-6">--}}
+{{--                                    {!! $form->renderFieldGroup('facebook') !!}--}}
+{{--                                </div>--}}
+{{--                                <div class="col-lg-6">--}}
+{{--                                    {!! $form->renderFieldGroup('instagram') !!}--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                        </div>
-                    </div>
-                </div>
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
