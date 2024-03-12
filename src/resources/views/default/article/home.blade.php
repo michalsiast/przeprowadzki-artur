@@ -8,7 +8,7 @@
                     <span><img style="    min-width: 50px;" src="{{ renderImage($item->galleryCover(), 50, 50, 'cover') }}" alt="img"></span>
                 </div>
                 <div class="ltn__feature-info">
-                    <h4><a href="service-details.html">{{$item->title}}</a></h4>
+                    <h4>{{$item->title}}</h4>
                     {!! $item->text !!}
                 </div>
             </div>
